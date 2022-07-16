@@ -40,7 +40,7 @@ void PrintArray(int[,] array)
     {
         for (int j = 0; j < column; j++)
         {
-            Console.Write(array[i, j] + " ");
+            Console.Write(array[i, j] + "\t");
         }
         Console.WriteLine();
     }
