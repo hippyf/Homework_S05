@@ -40,7 +40,7 @@ void PrintArray(int[,] array)
     {
         for (int j = 0; j < column; j++)
         {
-            Console.Write(array[i, j] + " ");
+            Console.Write(array[i, j] + "\t");
         }
         Console.WriteLine();
     }
@@ -57,6 +57,6 @@ void Average(int[,] array)
         {   
             sum = sum + array [j, i];
         }
-        Console.WriteLine("Сумма элементов в " + (i+1) + " столбце равна " + sum);
+        Console.WriteLine("Сумма среднего арифметического элементов в " + (i+1) + " столбце равна " + (sum/rows));
     }
 }    
